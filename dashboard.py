@@ -24,7 +24,7 @@ for i, kolom in enumerate(airquality_df.columns[:5]):
 st.pyplot(fig)
 
 # Heatmap korelasi indikator kualitas udara
-st.subheader('Peta Korelasi Indikator Kualitas Udara')
+st.subheader('Hearmaps Korelasi Indikator Kualitas Udara')
 korelasi = airquality_df[['PM2.5', 'PM10', 'NO2', 'SO2', 'CO', 'O3', 'TEMP', 'PRES', 'DEWP', 'RAIN', 'WSPM']].corr()
 fig, ax = plt.subplots(figsize=(12, 8))
 sns.heatmap(korelasi, annot=True, cmap='coolwarm', fmt='.2f', linewidths=0.5, ax=ax)
