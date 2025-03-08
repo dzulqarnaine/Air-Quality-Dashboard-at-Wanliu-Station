@@ -7,13 +7,13 @@ import seaborn as sns
 sns.set(style='dark')
 
 # Muat dataset
-airquality_df = pd.read_csv("C:/KULIAH STATISTIKA UNIVERSITAS SYIAH KUALA/SEMESTER 6/Coding Camp by DBS/Project/Analisis Data With Python/PRSA_Data_Wanliu_20130301-20170228.csv")
+airquality_df = pd.read_csv("main_data.csv")
 
 # Judul dashboard
-st.title('Dasbor Analisis Kualitas Udara: Stasiun Wanliu')
+st.title('Dashboard Analisis Kualitas Udara: Stasiun Wanliu')
 
 # Header dashboard
-st.write("**Dasbor ini menampilkan data kualitas udara dan variabel yang memengaruhinya di Stasiun Wanliu.**")
+st.write("**Dashboard ini menampilkan data kualitas udara dan variabel yang memengaruhinya di Stasiun Wanliu.**")
 
 # Histogram distribusi data
 st.subheader('Distribusi Data')
