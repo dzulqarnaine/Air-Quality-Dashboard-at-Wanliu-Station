@@ -7,4 +7,4 @@ packages: pip install -r requirements.txt
 Jalankan dashboard dengan: streamlit run dashboard.py
 
 # URL
-https://klasifikasiberitabbc.streamlit.app/
+https://zulkarnaini-airquality.streamlit.app/
